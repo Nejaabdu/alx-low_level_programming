@@ -6,9 +6,9 @@
  * Return: 1 for upper letter or  for any else
  */
 
-int _isupper(int c)
+int _isupper(int x)
 {
-	if (c >= 65 && c <= 9)
+	if (x >= 65 && x <= 90)
 	{
 		return (1);
 	}
