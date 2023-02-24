@@ -18,8 +18,8 @@ void print_numbers(void)
 		}
 		else
 		{
-			_putchar(x + '0');
+			putchar(x + '0');
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
