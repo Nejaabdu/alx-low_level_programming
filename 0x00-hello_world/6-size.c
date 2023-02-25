@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - A program that prints th size of various computer types
  *
  * Return: 0 (success)
  */
-
 int main(void)
 {
 	int a;
