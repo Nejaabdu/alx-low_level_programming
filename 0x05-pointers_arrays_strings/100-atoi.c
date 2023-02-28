@@ -7,7 +7,7 @@
  * Return: A integer
  */
 
-int _atoi(char *s)
+int _atol(char *s)
 
 {
 	int c = 0;
