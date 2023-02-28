@@ -3,10 +3,12 @@
 /**
  * _atol - Convert a string to an integer
  * @s: The pointer to convert
- * Return: An integer
+ * Description: Convert a string to an intiger
+ * Return: A integer
  */
 
 int _atoi(char *s)
+
 {
 	int c = 0;
 	unsigned int ni = 0;
@@ -15,7 +17,7 @@ int _atoi(char *s)
 
 	while (s[c])
 	{
-		if (s[c])
+		if (s[c] == 45)
 		{
 			min *= -1;
 		}
