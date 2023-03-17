@@ -169,6 +169,9 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 		num += tens;
 		*final_prod = (num % 10) + '0';
 		tens = num / 10;
+
+		final_prod--;
+		next_prod--;
 	}
 
 	if (tens)
